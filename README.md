@@ -13,3 +13,6 @@ Practica 2 Generación de Servicios RestFull
 
 Debemos de generar el archivo packed.json 
 1.	Configurar el proyecto con npm init 
+2.  npm install express --save
+3.	npm install body-parser --save
+4.	npm i –D nodemon
