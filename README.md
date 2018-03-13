@@ -7,7 +7,7 @@ Como generar un proyecto Node de consolé
 3.	La función procces es la encargada de leer los datos desde la consolé
 4.	Posteriormente colocarle la lógica de negocio Adecuada
 
-![alt text](https://github.com/aaronjazhiel/Node/blob/master/calculadora/codigoNode.png)
+![alt text](https://github.com/aaronjazhiel/Node/blob/master/imagenes/codigoNode.png)
 
 Practica 2 Generación de Servicios RestFull
 
@@ -16,3 +16,5 @@ Debemos de generar el archivo packed.json
 2.  npm install express --save
 3.	npm install body-parser --save
 4.	npm i –D nodemon
+
+![alt text](https://github.com/aaronjazhiel/Node/blob/master/imagenes/Ejecucion.png)
