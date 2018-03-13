@@ -17,4 +17,4 @@ Debemos de generar el archivo packed.json
 3.	npm install body-parser --save
 4.	npm i –D nodemon
 
-![alt text](https://github.com/aaronjazhiel/Node/blob/master/imagenes/Ejecucion.png)
+![alt text](https://github.com/aaronjazhiel/Node/blob/master/imagenes/Ejecucion.PNG)
