@@ -6,3 +6,5 @@ Como generar un proyecto Node de consolé
 2.	Posteriormente usar el siguiente script
 3.	La función procces es la encargada de leer los datos desde la consolé
 4.	Posteriormente colocarle la lógica de negocio Adecuada
+
+![alt text](https://github.com/aaronjazhiel/Node/blob/master/calculadora/codigoNode.png)
