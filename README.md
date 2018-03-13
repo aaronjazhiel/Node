@@ -16,5 +16,6 @@ Debemos de generar el archivo packed.json
 2.  npm install express --save
 3.	npm install body-parser --save
 4.	npm i –D nodemon
+5.  La ejecución es mediante esta URL http://localhost:3678/api/prueba/juan
 
 ![alt text](https://github.com/aaronjazhiel/Node/blob/master/imagenes/Ejecucion.PNG)
