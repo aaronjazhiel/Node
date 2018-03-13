@@ -8,3 +8,8 @@ Como generar un proyecto Node de consolé
 4.	Posteriormente colocarle la lógica de negocio Adecuada
 
 ![alt text](https://github.com/aaronjazhiel/Node/blob/master/calculadora/codigoNode.png)
+
+Practica 2 Generación de Servicios RestFull
+
+Debemos de generar el archivo packed.json 
+1.	Configurar el proyecto con npm init 
