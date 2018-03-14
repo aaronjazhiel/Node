@@ -20,4 +20,4 @@ Debemos de generar el archivo packed.json
 
 ![alt text](https://github.com/aaronjazhiel/Node/blob/master/imagenes/Ejecucion.PNG)
 
-Practica 2 Generación de Servicios RestFull con MongoDB
+Practica 3 Generación de Servicios RestFull con MongoDB
