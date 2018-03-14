@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 var app = require('./app');
 var port = process.env.PORT || 3678;
 
-mongoose.connect('mongodb://13.58.210.131:9000',function (err,rest){
+mongoose.connect('mongodb://13.58.210.131:9000/cursofavoritos',function (err,rest){
 
 if(err){
     throw err;
