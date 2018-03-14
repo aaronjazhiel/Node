@@ -12,9 +12,9 @@ var parametro = "SIN NOMBRE";
 }
 
 function getFavorito(req,res){  
-    var favoritoId = req.params.id;
+    var idFavorito = req.params.id;
     res.status(200).send({
-                           data : "getFavorito"
+                           data : idFavorito
                          });
 }
 
@@ -33,16 +33,16 @@ function saveFavorito(req,res){
 }
 
 function updateFavorito(req,res){  
-    var favoritoId = req.params.id;
+    var params = req.body;
     res.status(200).send({
-                           data : "updateFavorito"
+                           favorito : params
                          });
 }
 
 function deleteFavorito(req,res){  
-    var favoritoId = req.params.id;
+    var idFavorito = req.params.id;
     res.status(200).send({
-                           data : "delteFavorito"
+                           favorito : idFavorito
                          });
 }
 
