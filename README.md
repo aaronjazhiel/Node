@@ -9,7 +9,7 @@ Como generar un proyecto Node de consolé
 
 ![alt text](https://github.com/aaronjazhiel/Node/blob/master/imagenes/codigoNode.png)
 
-Practica 2 Generación de Servicios RestFull
+Practica 2 Generación de Servicios RestFull MVN sin Base de datos
 
 Debemos de generar el archivo packed.json 
 1.	Configurar el proyecto con npm init 
@@ -19,3 +19,5 @@ Debemos de generar el archivo packed.json
 5.  La ejecución es mediante esta URL http://localhost:3678/api/prueba/juan
 
 ![alt text](https://github.com/aaronjazhiel/Node/blob/master/imagenes/Ejecucion.PNG)
+
+Practica 2 Generación de Servicios RestFull con MongoDB
