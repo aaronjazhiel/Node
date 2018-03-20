@@ -23,4 +23,6 @@ Debemos de generar el archivo packed.json
 Practica 3 Generación de Servicios RestFull con MongoDB
 
 1-. Instalar Mongo
+
 2-. Instalar ORM mogoose >npm install mongoose --save
+
