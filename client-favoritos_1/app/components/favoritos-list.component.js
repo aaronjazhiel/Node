@@ -14,7 +14,18 @@ var core_1 = require('@angular/core');
 var FavoritosListComponent = (function () {
     function FavoritosListComponent() {
         this.titulo = "Listado de marcadores";
+        this.favoritos = ['aaronjazhiel.com', 'pasale paisano', 'www.google.com'];
+        this.favoritosVisibles = true;
     }
+    FavoritosListComponent.prototype.showFavoritos = function () {
+        this.favoritosVisibles = false;
+    };
+    FavoritosListComponent.prototype.hideFavoritos = function () {
+        this.favoritosVisibles = true;
+    };
+    FavoritosListComponent.prototype.changeColor = function () {
+        this.color = "red";
+    };
     FavoritosListComponent = __decorate([
         core_1.Component({
             selector: 'my-favorito',

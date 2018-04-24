@@ -12,11 +12,25 @@ export class FavoritosListComponent {
 
     public titulo : string;
     public descripcion : string;
-
+    public favoritos : Array <String>;
+    public favoritosVisibles : boolean ;
+    public color : string ;
+    
     constructor(){
-  
       this.titulo = "Listado de marcadores";
+      this.favoritos = ['aaronjazhiel.com','pasale paisano','www.google.com'];
+      this.favoritosVisibles = true; 
     }
-  
+    
+    
+    public  showFavoritos(){
+        this.favoritosVisibles = false;
+    }
+    public  hideFavoritos(){
+        this.favoritosVisibles = true;
+    }
 
+    public changeColor(){
+         this.color = "red";
+    }
  }

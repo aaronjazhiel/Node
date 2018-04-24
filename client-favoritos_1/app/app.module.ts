@@ -1,16 +1,20 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent }  from './app.component';
+import {FormsModule} from '@angular/forms';
+
+import { AppComponent }  from './components/app.component';
+
 
 import { FavoritosListComponent } from './components/favoritos-list.component';
 
 
 
 @NgModule({
-  imports:      [ BrowserModule ],
+  imports:      [ BrowserModule,FormsModule ],
   declarations: [ 
                   AppComponent ,
                   FavoritosListComponent
+
   ],
   bootstrap:    [ AppComponent ]
 })
