@@ -11,19 +11,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 // Importar Component desde el núcleo de Angular
 var core_1 = require('@angular/core');
 // Decorador component, indicamos en que etiqueta se va a cargar la plantilla
-var AppComponent = (function () {
-    function AppComponent() {
-        this.titulo = "APP Favoritos";
-        this.descripcion = "Aplicacion web SPA con Angular 2 para la tercera parte del proyecto documental";
+var FavoritosListComponent = (function () {
+    function FavoritosListComponent() {
+        this.titulo = "Listado de marcadores";
     }
-    AppComponent = __decorate([
+    FavoritosListComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            templateUrl: '/app/views/home.html'
+            selector: 'my-favorito',
+            templateUrl: '/app/views/favoritos-list.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], FavoritosListComponent);
+    return FavoritosListComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.FavoritosListComponent = FavoritosListComponent;
+//# sourceMappingURL=favoritos-list.component.js.map
