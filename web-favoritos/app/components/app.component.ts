@@ -1,22 +1,29 @@
-// Importar Component desde el núcleo de Angular
-import {Component} from '@angular/core';
- 
-// Decorador component, indicamos en que etiqueta se va a cargar la plantilla
+import {Component, OnInit} from '@angular/core';
+import {FavoritoService} from '../services/favorito.service';
+import {Favorito} from '../models/favorito'; 
+
+
+
 @Component({
     selector: 'my-app',
     templateUrl: '/app/views/home.html'
+   // providers: [FavoritoService]
 })
  
 // Clase del componente donde irán los datos y funcionalidades
-export class AppComponent {
+export class AppComponent implements OnInit{
 
     public titulo : string;
     public descripcion : string;
 
     constructor(){
   
-      this.titulo = "APP Favoritos";
-      this.descripcion = "Aplicacion web SPA con Angular 2 para la tercera parte del proyecto documental"
+      this.titulo = "SICODO";
+      this.descripcion = "Sistema de Control Documental"
+    }
+
+    ngOnInit(){
+        
     }
   
 

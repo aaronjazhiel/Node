@@ -1,4 +1,181 @@
 body{
-  background: #eee;
+	font-family: Helvetica, Arial;
 }
 
+.clearfix{
+	float:none;
+	clear: both;
+	text-decoration: none;
+	list-style: none;
+}
+
+#content{
+	width: 80%;
+	min-height: 500px;
+	margin: 0px auto;
+	margin-top: 20px;
+	border: 1px solid #600030;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #600030;
+	background: #600030;
+}
+
+header{
+	padding: 15px;
+	background: white;
+}
+
+header .title-subtitle{
+	float: left;
+	border-bottom: 1px solid #600030;
+	border-top:1px solid  #600030;
+	color: #600030;
+	padding: 20px;
+	padding-left: 195px;
+	margin-left: -65px;
+}
+
+header h1, 
+header p{
+	margin: 0px;
+	margin-left: 15px;
+}
+
+header h1 a{
+	text-decoration: none;
+	color: #600030;
+}
+
+header h1 a:hover{
+	text-decoration: underline;
+}
+
+header p{
+	color:#600030;
+}
+
+header #logo{
+	display: block;
+	float: left;
+	margin-top: 3px;
+    width: 65px;
+}
+
+.btn-add-favorito{
+	display: block;
+	padding: 10px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 5px;
+	background: #600030;
+	border-radius: 4px;
+	border: 1px solid white;
+	box-shadow: 0px 0px 5px gray;
+	color: #666;
+	text-decoration: none;
+	transition: all 300ms;
+}
+
+.btn-add-favorito:hover{
+	background: #600030;
+	color: #444;
+}
+
+#favoritos-list{
+	padding: 0px;
+	margin: 0px;
+}
+
+.favorito-item{
+	list-style: none;
+	border: 1px solid #600030;
+	float: left;
+	width: 31%;
+	height: 120px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: gray;
+	background: #600030;
+	margin: 10px;
+}
+
+.favorito-item .content-data{
+	float: left;
+	margin-left: 20px;
+}
+
+.favorito-item h4{
+	color: #444;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 5px;
+}
+
+.favorito-item .url{
+	margin: 0px;
+	margin-top: 2px;
+	padding: 0px;
+	height: 45px;
+	overflow: hidden;
+}
+
+.btn{
+	font-size: 13px;
+	border: 1px solid #600030;
+	border-color: #1976D2;
+	border-radius: 4px;
+	box-shadow: 0px 0px 5px #600030;
+	padding: 5px;
+	text-decoration: none;
+	color:#600030;
+	background: #0074d9;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.btn-editar{
+	background:white;
+	border-color: white;
+}
+
+.btn-eliminar{
+	background: #E23237;
+	border-color: #F54747;
+}
+
+.btn-default{
+	background: #eaa615;
+	border-color: #cc941c;
+	color: #600030;	
+	margin-left: 0px;
+}
+
+.favorito-box{
+	margin-left: 25px;
+	background: #600030;
+
+	border: 1px solid #600030;
+	width: 90%;
+	min-height: 150px;
+	margin-top:20px;
+	padding: 20px;
+}
+
+.loading{
+	margin:25px;
+}
+
+footer{
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 20px;
+	color: gray;
+}
+
+.seguro{
+    background: #600030 none repeat scroll 0 0;
+    margin-top: -95px;
+    position: absolute;
+    width: 275px;
+    text-align: center;
+}
