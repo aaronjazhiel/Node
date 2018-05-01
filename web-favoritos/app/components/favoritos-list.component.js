@@ -8,21 +8,32 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-// Importar Component desde el núcleo de Angular
 var core_1 = require('@angular/core');
 var favorito_service_1 = require('../services/favorito.service');
-// Decorador component, indicamos en que etiqueta se va a cargar la plantilla
 var FavoritosListComponent = (function () {
-    function FavoritosListComponent() {
+    function FavoritosListComponent(_favoritoService) {
+        this._favoritoService = _favoritoService;
         this.titulo = "Listado de marcadores";
     }
+    FavoritosListComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        console.log('FavoritosListComponent cargando!!');
+        this._favoritoService.getFavoritos().subscribe(function (result) {
+            console.log(result);
+        }, function (error) {
+            _this.errorMessage = error;
+            if (_this.errorMessage != null) {
+                console.log(_this.errorMessage);
+                alert('Error en la petición');
+            }
+        });
+    };
     FavoritosListComponent = __decorate([
         core_1.Component({
             selector: 'my-favorito',
-            templateUrl: '/app/views/favoritos-list.html',
-            providers: [favorito_service_1.FavoritoService]
+            templateUrl: '/app/views/favoritos-list.html'
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [favorito_service_1.FavoritoService])
     ], FavoritosListComponent);
     return FavoritosListComponent;
 }());

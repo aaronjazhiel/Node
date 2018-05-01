@@ -1,10 +1,10 @@
+
 import { Injectable } from '@angular/core';
-import {Http, Response, Headers} from '@angular/Http';
-import 'rxjs/add/operator/map';
-import {Observable} from 'rxjs/Observable';
+import { Headers, Http, Response } from '@angular/http';
+
+import 'rxjs/add/operator/toPromise';
+
 import {Favorito} from '../models/favorito';
-
-
 
 @Injectable()
 export class FavoritoService{
@@ -19,4 +19,6 @@ export class FavoritoService{
                           .map(res => res.json());
 
     }
+
+   
 }

@@ -14,18 +14,23 @@ var forms_1 = require('@angular/forms');
 var http_1 = require('@angular/http');
 var app_component_1 = require('./components/app.component');
 var favoritos_list_component_1 = require('./components/favoritos-list.component');
+require('./rxjs-extensions');
+var favorito_service_1 = require('./services/favorito.service');
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule,
+            imports: [
+                platform_browser_1.BrowserModule,
                 forms_1.FormsModule,
                 http_1.HttpModule
             ],
             declarations: [
                 app_component_1.AppComponent,
                 favoritos_list_component_1.FavoritosListComponent
+            ], providers: [
+                favorito_service_1.FavoritoService
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 
